@@ -1,0 +1,28 @@
+# Gradle
+.gradle/
+build/
+out/
+
+# Ejecuciones locales
+run/
+logs/
+crash-reports/
+*.log
+
+# IDE
+.idea/
+*.iml
+.vscode/
+.classpath
+.project
+.settings/
+
+# Sistema
+.DS_Store
+Thumbs.db
+
+# Java
+*.class
+
+# Mixin debug
+.mixin.out/

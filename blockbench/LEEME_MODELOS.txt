@@ -1,0 +1,3 @@
+NAIMSAUR_PRIME.bbmodel: modelo editable por huesos (maqueta procedural).
+La animación se suministra separada en resources/assets/naimsauria/geckolib/animations/entity/naimsaur_prime.animation.json.
+Importa o sustituye el modelo en Blockbench y exporta al formato GeckoLib. Verifica escala y UVs en el juego.
