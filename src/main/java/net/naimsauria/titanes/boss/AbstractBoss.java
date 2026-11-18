@@ -82,15 +82,15 @@ public abstract class AbstractBoss extends Monster implements GeoEntity {
 
     @Override
     public void registerControllers(AnimatableManager.ControllerRegistrar registrar) {
-        registrar.add(new AnimationController<>(\"movement\", 6, state ->
+        registrar.add(new AnimationController<>("movement", 6, state ->
             state.setAndContinue(RawAnimation.begin().thenLoop(
-                state.isMoving() ? \"animation.naimsaur_prime.walk\" : \"animation.naimsaur_prime.idle\"))));
-        registrar.add(new AnimationController<>(\"actions\", 0, state -> PlayState.STOP)
-            .triggerableAnim(\"roar\", RawAnimation.begin().thenPlay(\"animation.naimsaur_prime.roar\"))
-            .triggerableAnim(\"bite\", RawAnimation.begin().thenPlay(\"animation.naimsaur_prime.bite\"))
-            .triggerableAnim(\"shockwave\", RawAnimation.begin().thenPlay(\"animation.naimsaur_prime.stomp\"))
-            .triggerableAnim(\"beam\", RawAnimation.begin().thenPlay(\"animation.naimsaur_prime.beam\"))
-            .triggerableAnim(\"transform\", RawAnimation.begin().thenPlay(\"animation.naimsaur_prime.transform\")));
+                state.isMoving() ? "animation.naimsaur_prime.walk" : "animation.naimsaur_prime.idle"))));
+        registrar.add(new AnimationController<>("actions", 0, state -> PlayState.STOP)
+            .triggerableAnim("roar", RawAnimation.begin().thenPlay("animation.naimsaur_prime.roar"))
+            .triggerableAnim("bite", RawAnimation.begin().thenPlay("animation.naimsaur_prime.bite"))
+            .triggerableAnim("shockwave", RawAnimation.begin().thenPlay("animation.naimsaur_prime.stomp"))
+            .triggerableAnim("beam", RawAnimation.begin().thenPlay("animation.naimsaur_prime.beam"))
+            .triggerableAnim("transform", RawAnimation.begin().thenPlay("animation.naimsaur_prime.transform")));
     }
 
     @Override
