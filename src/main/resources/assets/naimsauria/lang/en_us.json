@@ -1,5 +1,20 @@
 {
-  "entity.naimsauria.naimsaur_prime": "NAIMSAUR PRIME \u2014 Eclipse Titan",
+  "creativeTab.naimsauria": "NAIMSAURIA — Jurassic Kings",
   "item.naimsauria.sello_primordial": "Primordial Sigil",
-  "item.naimsauria.nucleo_saurio_omega": "Saurio Omega Core"
+  "item.naimsauria.nucleo_saurio_omega": "Saurio Omega Core",
+  "entity.naimsauria.rey_tirano": "TYRANT KING — Canyon Monarch",
+  "item.naimsauria.rey_tirano_spawn_egg": "Spawn Egg: TYRANT KING — Canyon Monarch",
+  "lore.naimsauria.rey_tirano_spawn_egg": "Summons one boss per area. Phase 1 prototype.",
+  "entity.naimsauria.matriarca": "MATRIARCH — Pack Queen",
+  "item.naimsauria.matriarca_spawn_egg": "Spawn Egg: MATRIARCH — Pack Queen",
+  "lore.naimsauria.matriarca_spawn_egg": "Summons one boss per area. Phase 1 prototype.",
+  "entity.naimsauria.leviatan": "LEVIATHAN — Swamp Sovereign",
+  "item.naimsauria.leviatan_spawn_egg": "Spawn Egg: LEVIATHAN — Swamp Sovereign",
+  "lore.naimsauria.leviatan_spawn_egg": "Summons one boss per area. Phase 1 prototype.",
+  "entity.naimsauria.dragon_abisal": "ABYSSAL DRAGON — Heart of Sculk",
+  "item.naimsauria.dragon_abisal_spawn_egg": "Spawn Egg: ABYSSAL DRAGON — Heart of Sculk",
+  "lore.naimsauria.dragon_abisal_spawn_egg": "Summons one boss per area. Phase 1 prototype.",
+  "entity.naimsauria.naimsaur_prime": "NAIMSAUR PRIME — Eclipse Titan",
+  "item.naimsauria.naimsaur_prime_spawn_egg": "Spawn Egg: NAIMSAUR PRIME — Eclipse Titan",
+  "lore.naimsauria.naimsaur_prime_spawn_egg": "Summons one boss per area. Phase 1 prototype."
 }

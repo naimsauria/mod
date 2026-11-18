@@ -1,0 +1,6 @@
+{
+  "parent": "minecraft:item/generated",
+  "textures": {
+    "layer0": "naimsauria:item/rey_tirano_spawn_egg"
+  }
+}

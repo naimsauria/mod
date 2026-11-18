@@ -3,12 +3,18 @@
   "id": "naimsauria",
   "version": "${version}",
   "name": "NAIMSAURIA: Reyes del Jurásico",
-  "description": "Cinco jefes prehistoricos. Fase 1: infraestructura 26.2 y prototipo NAIMSAUR PRIME.",
-  "authors": ["NAIMSAURIA"],
+  "description": "Cinco jefes: fase 1 con huevos, núcleo de combate y HUD inicial. Cuatro modelos siguen siendo provisionales.",
+  "authors": [
+    "NAIMSAURIA"
+  ],
   "environment": "*",
   "entrypoints": {
-    "main": ["net.naimsauria.titanes.NaimsauriaMod"],
-    "client": ["net.naimsauria.titanes.client.NaimsauriaClient"]
+    "main": [
+      "net.naimsauria.titanes.NaimsauriaMod"
+    ],
+    "client": [
+      "net.naimsauria.titanes.client.NaimsauriaClient"
+    ]
   },
   "depends": {
     "fabricloader": ">=0.20.1",

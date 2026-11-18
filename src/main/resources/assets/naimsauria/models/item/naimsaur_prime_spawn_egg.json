@@ -1,0 +1,6 @@
+{
+  "parent": "minecraft:item/generated",
+  "textures": {
+    "layer0": "naimsauria:item/naimsaur_prime_spawn_egg"
+  }
+}

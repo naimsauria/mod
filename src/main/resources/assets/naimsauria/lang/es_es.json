@@ -1,5 +1,20 @@
 {
-  "entity.naimsauria.naimsaur_prime": "NAIMSAUR PRIME — Titán del Eclipse",
+  "creativeTab.naimsauria": "NAIMSAURIA — Reyes del Jurásico",
   "item.naimsauria.sello_primordial": "Sello Primordial",
-  "item.naimsauria.nucleo_saurio_omega": "Núcleo del Saurio Omega"
+  "item.naimsauria.nucleo_saurio_omega": "Núcleo del Saurio Omega",
+  "entity.naimsauria.rey_tirano": "REY TIRANO — Señor del Cañón",
+  "item.naimsauria.rey_tirano_spawn_egg": "Huevo de REY TIRANO — Señor del Cañón",
+  "lore.naimsauria.rey_tirano_spawn_egg": "Invoca a un jefe único en la zona. Prototipo de fase 1.",
+  "entity.naimsauria.matriarca": "MATRIARCA — Reina de la Manada",
+  "item.naimsauria.matriarca_spawn_egg": "Huevo de MATRIARCA — Reina de la Manada",
+  "lore.naimsauria.matriarca_spawn_egg": "Invoca a un jefe único en la zona. Prototipo de fase 1.",
+  "entity.naimsauria.leviatan": "LEVIATÁN — Soberano del Pantano",
+  "item.naimsauria.leviatan_spawn_egg": "Huevo de LEVIATÁN — Soberano del Pantano",
+  "lore.naimsauria.leviatan_spawn_egg": "Invoca a un jefe único en la zona. Prototipo de fase 1.",
+  "entity.naimsauria.dragon_abisal": "DRAGÓN ABISAL — Corazón del Sculk",
+  "item.naimsauria.dragon_abisal_spawn_egg": "Huevo de DRAGÓN ABISAL — Corazón del Sculk",
+  "lore.naimsauria.dragon_abisal_spawn_egg": "Invoca a un jefe único en la zona. Prototipo de fase 1.",
+  "entity.naimsauria.naimsaur_prime": "NAIMSAUR PRIME — Titán del Eclipse",
+  "item.naimsauria.naimsaur_prime_spawn_egg": "Huevo de NAIMSAUR PRIME — Titán del Eclipse",
+  "lore.naimsauria.naimsaur_prime_spawn_egg": "Invoca a un jefe único en la zona. Prototipo de fase 1."
 }
