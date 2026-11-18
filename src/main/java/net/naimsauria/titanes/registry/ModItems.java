@@ -2,7 +2,7 @@ package net.naimsauria.titanes.registry;
 
 import net.minecraft.core.Registry;
 import net.minecraft.core.component.DataComponents;
-import net.minecraft.core.component.type.ItemLore;
+import net.minecraft.world.item.component.ItemLore;
 import net.minecraft.core.registries.BuiltInRegistries;
 import net.minecraft.core.registries.Registries;
 import net.minecraft.network.chat.Component;

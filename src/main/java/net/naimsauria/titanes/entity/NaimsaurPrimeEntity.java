@@ -118,11 +118,11 @@ public final class NaimsaurPrimeEntity extends AbstractBoss {
 
     @Override protected void addAdditionalSaveData(ValueOutput output) {
         super.addAdditionalSaveData(output);
-        output.putBoolean("NaimsaurRewardGiven", rewardGiven);
+        output.putInt("NaimsaurRewardGiven", rewardGiven ? 1 : 0);
     }
 
     @Override protected void readAdditionalSaveData(ValueInput input) {
         super.readAdditionalSaveData(input);
-        rewardGiven = input.getBoolean("NaimsaurRewardGiven").orElse(false);
+        rewardGiven = input.getInt("NaimsaurRewardGiven").orElse(0) != 0;
     }
 }

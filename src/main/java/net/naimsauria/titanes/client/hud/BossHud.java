@@ -40,7 +40,7 @@ public final class BossHud {
         int mainColor = 0xFF000000 | kind.color();
 
         gui.fill(x-6, y-6, x+width+6, y+55, 0xB70A0C18);
-        gui.drawString(mc.font, Component.translatable("entity.naimsauria." + kind.id()),
+        gui.text(mc.font, Component.translatable("entity.naimsauria." + kind.id()),
             x+3, y-2, 0xFFFFFFFF, true);
         gui.fill(x, y+15, x+width, y+30, 0xFF1D1E2A);
         gui.fill(x+2, y+17, x+2+(int)((width-4)*ghost), y+28, 0xFF7E778A);
@@ -52,7 +52,7 @@ public final class BossHud {
         gui.fill(x, y+35, x+width, y+41, 0xFF1D1E2A);
         gui.fill(x+1, y+36, x+1+(int)((width-2)*poise), y+40, 0xFFFFD57C);
         String hint = data.action() == 1 ? "  !" : "";
-        gui.drawString(mc.font, Component.literal("PHASE " + data.phase() +
+        gui.text(mc.font, Component.literal("PHASE " + data.phase() +
             "/" + kind.phases() + hint), x+3, y+44, 0xFFD9D4EB, true);
     }
 }
