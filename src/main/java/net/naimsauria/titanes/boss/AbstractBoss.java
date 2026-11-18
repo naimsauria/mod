@@ -259,7 +259,7 @@ public abstract class AbstractBoss extends Monster implements GeoEntity {
         entityData.set(PHASE, Math.max(1, Math.min(bossKind().phases(), input.getInt("NaimsaurPhase").orElse(1))));
         introTicks = Math.max(0, input.getInt("NaimsaurIntro").orElse(0));
         attackIndex = Math.max(0, input.getInt("NaimsaurAttackIndex").orElse(0));
-        entityData.set(POISE, Math.max(0, Math.min(100, input.getInt("NaimsaurPoise").orElse(0))));
+        entityData.set(POISE, (float) Math.max(0, Math.min(100, input.getInt("NaimsaurPoise").orElse(0))));
         scaled = input.getInt("NaimsaurScaled").orElse(0) != 0;
         machine.reset();
     }
